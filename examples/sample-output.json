@@ -1,0 +1,35 @@
+{
+  "_notice": "FICTIONAL EXAMPLE ONLY. All IDs, listings, prices, and cursor values are invented. Item URLs illustrate the format and are not verified listings. Photo uses a reserved example domain.",
+  "edges": [
+    {
+      "node": {
+        "listing": {
+          "id": "100000000000001",
+          "marketplace_listing_title": "Example winter tires and rims — fitment unverified",
+          "listing_price": { "formatted_amount": "CA$550" },
+          "location": { "reverse_geocode": { "city": "Calgary", "state": "Alberta" } },
+          "primary_listing_photo": { "image": { "uri": "https://example.com/fake-tires.jpg" } },
+          "delivery_types": ["IN_PERSON"],
+          "is_sold": false,
+          "is_pending": false
+        }
+      }
+    }
+  ],
+  "page_info": { "has_next_page": false, "end_cursor": "FAKE_CURSOR" },
+  "location_id": "calgary",
+  "listings": [
+    {
+      "id": "100000000000001",
+      "title": "Example winter tires and rims — fitment unverified",
+      "price": "CA$550",
+      "city": "Calgary",
+      "state": "Alberta",
+      "photo": "https://example.com/fake-tires.jpg",
+      "delivery_types": ["IN_PERSON"],
+      "is_sold": false,
+      "is_pending": false,
+      "url": "https://www.facebook.com/marketplace/item/100000000000001/"
+    }
+  ]
+}
